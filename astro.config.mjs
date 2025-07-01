@@ -9,6 +9,7 @@ export default defineConfig({
   output: "static", // Required for GitHub Pages
   site: "https://reporto/blog.github.io",
   integrations: [mdx(), sitemap()],
+  base: "/", // Base path for GitHub Pages
   vite: {
     plugins: [tailwindcss()],
   },

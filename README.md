@@ -1,41 +1,6 @@
-# Storyteller - Minimal Astro Blog Theme
 
-<div align="center">
-  <img src="https://res.cloudinary.com/roxlox/image/upload/v1749266794/storyteller/storyteller_zcihgf.png" alt="Storyteller Monochrome Blog Theme Preview" />
-  
-  <p align="center">
-    <strong>A beautiful, minimal, and highly functional blog theme built with Astro</strong>
-  </p>
-  
-  <p align="center">
-    <img src="https://img.shields.io/badge/Astro-5.9.0-FF5D01?style=flat-square&logo=astro" alt="Astro" />
-    <img src="https://img.shields.io/badge/TailwindCSS-4.1.8-38B2AC?style=flat-square&logo=tailwind-css" alt="TailwindCSS" />
-    <img src="https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License" />
-  </p>
-</div>
-
----
 
 ## ✨ Features
-
-### 🎨 **Design Philosophy**
-
-- **Monochrome Elegance**: Clean black and white design that puts content first
-- **Minimal Aesthetic**: Less is more - every element serves a purpose
-- **Typography-Focused**: Beautiful typography hierarchy for excellent readability
-
-### 🌓 **Theme System**
-
-- **Dark/Light Mode**: Seamless theme switching with system preference detection
-- **Persistent Settings**: Theme choice saved in localStorage
-- **Smooth Transitions**: Elegant animations between theme changes
-
-### 📱 **Responsive Design**
-
-- **Mobile-First**: Optimized for all screen sizes
-- **Max-Width Design**: 1000px container for optimal reading experience
-- **Touch-Friendly**: Perfect interaction on mobile devices
 
 ### 📝 **Content Management**
 
