@@ -4,10 +4,31 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "create-free-demo": "node create-free-demo.js"
   },
+  "keywords": [
+    "Astro",
+    "Startup",
+    "Corporate",
+    "Store Theme",
+    "Online Store",
+    "Startup template",
+    "Astro startup",
+    "Astro Startup",
+    "Astro store",
+    "Store theme",
+    "Startup theme",
+    "Astro Startup theme",
+    "Astro Startup store",
+    "Astro template",
+    "Astro store template"
+  ],
+  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "license": "MIT",
   "dependencies": {
       "@astrojs/mdx": "^4.3.0",
     "@astrojs/rss": "^4.0.12",
@@ -18,5 +39,18 @@
     "partytown": "^0.0.0",
     "tailwindcss": "^4.1.8"
   },
-  "packageManager": "pnpm@8.6.5"
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/astro-launch-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/astro-launch-ui/issues"
+  },
+  "homepage": "https://www.creative-tim.com/astro/launch-ui/"
 }
