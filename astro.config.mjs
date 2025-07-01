@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	output: 'static', // Required for GitHub Pages
+	site: 'https://reporto/blog.github.io',
 	integrations: [mdx(), sitemap()],
 });
