@@ -1,5 +1,5 @@
 {
-  "name": "my-astro-project",
+  "name": "storyteller",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,11 +9,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.0",
+      "@astrojs/mdx": "^4.3.0",
     "@astrojs/rss": "^4.0.12",
     "@astrojs/sitemap": "^3.4.1",
-    "astro": "^5.10.1",
-    "sharp": "^0.34.2"
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.8",
+    "astro": "^5.9.0",
+    "partytown": "^0.0.0",
+    "tailwindcss": "^4.1.8"
   },
   "packageManager": "pnpm@8.6.5"
 }
