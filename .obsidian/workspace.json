@@ -169,6 +169,8 @@
   },
   "active": "b224a6e54e16c3f1",
   "lastOpenFiles": [
+    "src/pages/author/[author].astro",
+    "src/pages/author",
     "README.md",
     "src/content/article/article-manage.md",
     "src/content/article/如何发布文章.md",
@@ -181,7 +183,6 @@
     "dist/tag/balance",
     "dist/tag/work-life/index.html",
     "dist/tag/work-life",
-    "dist/tag/nomad/index.html",
     "dist/volant-unsplash.jpg",
     "dist/stores-bg.jpg",
     "dist/store-bg.jpg",

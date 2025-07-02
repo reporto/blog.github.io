@@ -2,7 +2,7 @@
 title: Article manage
 description: Article manage
 pubDate: 2025-01-05
-author: luweijun
+author: Luweijun
 category: blog
 tags:
   - remote

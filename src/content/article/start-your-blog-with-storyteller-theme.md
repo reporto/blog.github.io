@@ -2,7 +2,7 @@
 title: "Start Your Blog with Storyteller Theme"
 description: "Complete guide to setting up your own blog using the Storyteller Astro theme - from installation to customization and deployment."
 pubDate: 2025-06-07
-author: "Hasin Hayder"
+author: "Joe"
 category: "Tutorial"
 tags: ["astro", "blog", "theme", "storyteller", "tutorial"]
 featured: true
@@ -10,7 +10,7 @@ thumb: "https://images.unsplash.com/photo-1659942256016-5de203e0481b?auto=format
 large: "https://images.unsplash.com/photo-1659942256016-5de203e0481b?auto=format&fit=crop&w=2400&q=80"
 ---
 
-Ready to start your own minimal, elegant blog? The Storyteller theme for Astro makes it incredibly easy to launch a beautiful, fast-loading blog that focuses on what matters most: your content.
+Ready to start your own minimal, elegant blog? Luweijun theme for Astro makes it incredibly easy to launch a beautiful, fast-loading blog that focuses on what matters most: your content.
 
 ## Why Choose Storyteller?
 
@@ -287,7 +287,7 @@ Now that you have your blog up and running:
 
 ## Conclusion
 
-The Storyteller theme gives you everything you need to start a professional, fast-loading blog. Its minimal design ensures your content takes center stage, while the built-in features handle the technical details.
+Luweijun theme gives you everything you need to start a professional, fast-loading blog. Its minimal design ensures your content takes center stage, while the built-in features handle the technical details.
 
 Ready to start your blogging journey? Clone the repository, customize it to match your style, and start sharing your stories with the world.
 
