@@ -145,9 +145,7 @@ featured: false //是否精选
 - **图片**
   ![图片](https://github.com/reporto/blog.github.io/blob/main/public/logos/logo-amazon-old.svg)
   ![图片2](http://doc.luweijun.com/images/logo-report-beta.svg)	
-  ![图片2](/images/logo-report-beta.svg)	
-  
-
+  ![图片3](https://raw.githubusercontent.com/reporto/blog.github.io/refs/heads/main/public/Pasted%20image%2020250702101936.png)
 ---
 
 > 如有问题，请提交至 [Issues](https://github.com/reporto/blog.github.io/issues) 或通过 Discussions 讨论。
