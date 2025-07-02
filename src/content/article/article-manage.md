@@ -142,6 +142,11 @@ featured: false //是否精选
     
 - **本地预览**：  
     使用 `npm run dev` 本地实时预览
+- **图片**
+  ![图片](https://github.com/reporto/blog.github.io/blob/main/public/logos/logo-amazon-old.svg)
+  ![图片2](http://doc.luweijun.com/images/logo-report-beta.svg)	
+  ![图片2](/images/logo-report-beta.svg)	
+  
 
 ---
 
