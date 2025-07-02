@@ -1,9 +1,9 @@
 ---
-title: Article manage
+title: Test New
 description: Article manage
 pubDate: 2025-07-02
 author: Luweijun
-category: blog
+category: ai
 tags:
   - remote
   - work
