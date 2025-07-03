@@ -169,6 +169,7 @@
   },
   "active": "b224a6e54e16c3f1",
   "lastOpenFiles": [
+    "__unconfig_astro.config.mjs",
     "src/pages/author/[author].astro",
     "src/pages/author",
     "README.md",
@@ -182,7 +183,6 @@
     "dist/tag/balance/index.html",
     "dist/tag/balance",
     "dist/tag/work-life/index.html",
-    "dist/tag/work-life",
     "dist/volant-unsplash.jpg",
     "dist/stores-bg.jpg",
     "dist/store-bg.jpg",

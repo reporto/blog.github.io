@@ -27,7 +27,6 @@
     "Astro template",
     "Astro store template"
   ],
-  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
   "license": "MIT",
   "dependencies": {
     "@astrojs/mdx": "^4.3.0",
@@ -42,6 +41,7 @@
     "astro": "^5.9.0",
     "partytown": "^0.0.0",
     "react": "^19.1.0",
+    "starlight-llms-txt": "^0.5.1",
     "tailwindcss": "^4.1.8"
   },
   "devDependencies": {
