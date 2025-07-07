@@ -27,7 +27,7 @@ Here are a few examples of stocks that AI models often point to:
 - NVIDIA (NVDA): NVIDIA makes the powerful chips that are the brains behind most AI. Since almost everyone needs these chips, the company is in a great spot.
 - Arista Networks (ANET): Arista is doing really well because so many companies need its gear for cloud networking. High demand has led to great earnings for them.
 - Meta Platforms (META): Meta is jumping into AI-powered advertising. This could become a huge new business for the company, making it a leader in the field.
-![图片]()
+![图片](/images/articles/2025-7-7/pic_1.PNG)
 
 ##Making Sense of Earnings Reports
 Company earnings reports are very important. They give you a real look at a company’s financial health and what might happen in the future. The problem is that these reports can be long, complicated, and a real headache to read through yourself.
@@ -38,7 +38,7 @@ When you look at an earnings report, there are a few key numbers to watch:
 - Leverage Ratio: This is about debt. It helps you see if a company has borrowed too much money, which can be risky.
 - Asset Turnover: This one shows if a company is using what it owns—its assets—to make sales.
 Reporto can also help you dig deeper into a company's performance, like where its cash is coming from, to give you a full picture.
-![图片]()
+![图片](/images/articles/2025-7-7/pic_2.PNG)
 ##How a Tool Like Reporto Changes Things
 Reporto is basically a smart assistant that gives you useful information. Here is what it can do in the real world:
 - Pulls Key Numbers Fast: Reporto instantly finds the most important financial numbers in a report. This can save you hours of work.
@@ -46,4 +46,4 @@ Reporto is basically a smart assistant that gives you useful information. Here i
 - Makes Custom Summaries: You can tell the tool to create short summaries focused only on the information you care about.
 - Helps You Share Your Findings: Reporto lets you easily export your findings into PowerPoint slides, Excel sheets, or charts. This makes it simple to show the information to other people.
 So, whether you're looking at one company or trying to compare a few of them, the process becomes much quicker and easier.
-![图片]()
+![图片](/images/articles/2025-7-7/pic_3.PNG)

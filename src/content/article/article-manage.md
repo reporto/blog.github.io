@@ -12,7 +12,7 @@ tags:
   - nomad
   - work-life
   - balance
-featured: true
+featured: false
 thumb: /images/articles/2025-7-7/pic_1.PNG
 # large: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2400&q=80
 ---
