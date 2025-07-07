@@ -148,7 +148,8 @@ featured: false //是否精选
   ![图片3](https://raw.githubusercontent.com/reporto/blog.github.io/refs/heads/main/public/Pasted%20image%2020250702101936.png)
 
   test
-  ![图片4](/images/logo-report-beta.svg)	
+  ![图片4](/images/logo-report-beta.svg)
+  ![图片5](/images/articles/pic_1.PNG)	
 ---
 
 > 如有问题，请提交至 [Issues](https://github.com/reporto/blog.github.io/issues) 或通过 Discussions 讨论。
