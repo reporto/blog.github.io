@@ -47,4 +47,4 @@ Reporto is basically a smart assistant that gives you useful information. Here i
 - Makes Custom Summaries: You can tell the tool to create short summaries focused only on the information you care about.
 - Helps You Share Your Findings: [Reporto](https://reporto.co/) lets you easily export your findings into PowerPoint slides, Excel sheets, or charts. This makes it simple to show the information to other people.
 So, whether you're looking at one company or trying to compare a few of them, the process becomes much quicker and easier.
-![图片](/images/articles/2025-7-7/pic_3.PNG)
+![图片](/images/articles/2025-7-7/pic_3.png)
