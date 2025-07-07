@@ -13,8 +13,8 @@ tags:
   - work-life
   - balance
 featured: true
-thumb: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80
-large: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2400&q=80
+thumb: /images/articles/2025-7-7/pic_1.PNG
+# large: https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2400&q=80
 ---
 
 
@@ -149,7 +149,7 @@ featured: false //是否精选
 
   test
   ![图片4](/images/logo-report-beta.svg)
-  ![图片5](/images/articles/pic_1.PNG)	
+  ![图片5](/images/articles/2025-7-7/pic_1.PNG)	
 ---
 
 > 如有问题，请提交至 [Issues](https://github.com/reporto/blog.github.io/issues) 或通过 Discussions 讨论。
