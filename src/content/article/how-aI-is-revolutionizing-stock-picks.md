@@ -20,7 +20,7 @@ Artificial intelligence is really changing how people invest their money. AI pro
 For example, there are new tools like [Reporto](https://reporto.co/), which acts as an AI assistant for looking at earnings reports. You can give it a company's annual or quarterly report in almost any format. Then, the tool will pull out the most important numbers for you. It looks at things like Net Profit Margin, ROE, and debt levels. [Reporto](https://reporto.co/) uses its technology to find trends over the last 15 years. It can even write up simple summaries for you.
 Let's look at how AI is changing stock picking and how tools like [Reporto](https://reporto.co/) make sense of earnings reports.
 
-##How AI Helps with Stock Picks
+## How AI Helps with Stock Picks
 So, how does AI help with picking stocks? It works by looking at huge amounts of information all at once. It checks a stock's past performance, current market trends, and the company's basic health. Then, it tries to predict which stocks might do better than the overall market.
 And it seems to work pretty well. For instance, some researchers at Stanford University made an AI analyst. Over a 30-year period, this AI did better than 93% of human fund managers. That’s a huge difference and shows what AI can do.
 Here are a few examples of stocks that AI models often point to:
@@ -29,7 +29,7 @@ Here are a few examples of stocks that AI models often point to:
 - Meta Platforms (META): Meta is jumping into AI-powered advertising. This could become a huge new business for the company, making it a leader in the field.
 ![图片](/images/articles/2025-7-7/pic_1.PNG)
 
-##Making Sense of Earnings Reports
+## Making Sense of Earnings Reports
 Company earnings reports are very important. They give you a real look at a company’s financial health and what might happen in the future. The problem is that these reports can be long, complicated, and a real headache to read through yourself.
 This is where a tool like [Reporto](https://reporto.co/) can be a huge help. It reads the reports for you and pulls out the key numbers instantly. This allows you to use real data to make choices, but much faster.
 When you look at an earnings report, there are a few key numbers to watch:
