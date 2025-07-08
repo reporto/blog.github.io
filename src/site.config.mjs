@@ -1,6 +1,6 @@
 export default {
     siteTitle: "Your AI Copilot For Earning Report Analysis", // Main site title displayed in header
-    siteSubTitle: "A Next-Generation Assistant that flawlessly ingests any annual or quarterly report", // Subtitle shown under main title
+    siteSubTitle: "What to read next", // Subtitle shown under main title
     copyright: "©jfgenius.com All Rights Reserved.", // Footer copyright text
     showAuthorsOnHomePage: false, // Display author info on homepage
     showFeaturrdPostsOnHomePage: true, // Show featured posts section on homepage
