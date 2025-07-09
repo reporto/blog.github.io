@@ -35,8 +35,13 @@ const formattedDate = new Intl.DateTimeFormat("en-US", {
   <Header showTitle={true} />
     <div class="max-w-[1100px] mx-auto px-4">
   <!-- Light Horizontal Bar -->
-  <hr class="border-t border-gray-200 dark:border-gray-700 my-8" />
 
+  <div class="text-[14px] !mb-[-4] mt-14">
+    <a class="text-gray-400 hover:text-gray-900" href="https://reporto.co">Home</a> - 
+    <a class="text-gray-400 hover:text-gray-900" href="http://blog.reporto.co">Blog</a> - 
+    <span>{title}</span> 
+  </div>
+  <hr class="border-t border-gray-200 dark:border-gray-700 my-8 mt-4" />
   <!-- Blog Post Header -->
   <header class="mb-8 relative">
     <h1 class="text-3xl md:text-4xl lg:text-3xl font-bold tracking-tight mb-4 text-gray-900 dark:text-slate-100">
@@ -80,8 +85,6 @@ const formattedDate = new Intl.DateTimeFormat("en-US", {
     }
     <Content />
   </article>
-
-
   <!-- Similar Posts Section -->
   {
     SiteOptions.showSimilarPosts && similarPosts.length > 0 && (
