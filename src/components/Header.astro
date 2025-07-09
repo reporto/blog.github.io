@@ -8,14 +8,14 @@ const { showTitle = true } = Astro.props;
 ---
 
 <div
-  class="flex flex-col md:flex-row md:justify-between mx-20 mt-3 items-center"
+  class="flex flex-col md:flex-row md:justify-between mx-20 mt-8 items-center"
 >
   <div>
     <a href="http://reporto.co">
       <img
         src="/images/logo-report-beta.svg"
         alt="Reporto Logo"
-        class="h-12 object-cover dark:border-gray-700 hover:opacity-80 transition-opacity"
+        class="h-10 object-cover dark:border-gray-700 hover:opacity-80 transition-opacity"
       />
     </a>
     <!-- Theme Toggle Button -->
@@ -23,7 +23,7 @@ const { showTitle = true } = Astro.props;
       onclick="toggleTheme()"
       id="theme-toggle-button"
       aria-label="Toggle theme"
-      class="absolute top-2 right-2 mt-2 mr-2 p-2 rounded-md text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-slate-700 hover:bg-gray-200 dark:hover:bg-slate-600 transition-colors"
+      class="absolute top-0  mt-8 right-0 mt-2 mr-8 p-2 rounded-md text-gray-600 dark:text-gray-300 bg-gray-100 dark:bg-slate-700 hover:bg-gray-200 dark:hover:bg-slate-600 transition-colors"
     >
       <svg
         id="sun-icon"
@@ -59,12 +59,13 @@ const { showTitle = true } = Astro.props;
   </div>
 
   <div
-    class="flex space-x-4 text-gray-500 dark:text-gray-400 font-light text-center"
+    class="text-[14px] flex items-center space-x-4 text-gray-500 dark:text-gray-400 font-light text-center"
   >
-    <a class="hover:text-gray-900" href="https://reporto.co">Home</a>
-    <a class="hover:text-gray-900" href="https://blog.reporto.co">Blog</a>
-    <a class="hover:text-gray-900" href="https://reporto.co/price">Price</a>
-    <a class="hover:text-gray-900" href="https://reporto.co/auth/sign-in">Log in</a>
+    <a class="hover:text-gray-200" href="https://reporto.co">Home</a>
+    <a class="hover:text-gray-200" href="https://reporto.co/price">Price</a>
+    <a class="hover:text-gray-200" href="https://blog.reporto.co">Blog</a>
+    <a class="hover:text-gray-200" href="https://reporto.co/auth/sign-in">Log in</a>
+    <a class="items-center rounded-full hidden sm:flex bg-[#F2C279] px-4 py-2 text-center text-[#000]" href="https://reporto.co/auth/sign-in">Try for free &nbsp;<span role="img" aria-label="export" class="anticon anticon-export"><svg fill-rule="evenodd" viewBox="64 64 896 896" focusable="false" data-icon="export" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M880 912H144c-17.7 0-32-14.3-32-32V144c0-17.7 14.3-32 32-32h360c4.4 0 8 3.6 8 8v56c0 4.4-3.6 8-8 8H184v656h656V520c0-4.4 3.6-8 8-8h56c4.4 0 8 3.6 8 8v360c0 17.7-14.3 32-32 32zM770.87 199.13l-52.2-52.2a8.01 8.01 0 014.7-13.6l179.4-21c5.1-.6 9.5 3.7 8.9 8.9l-21 179.4c-.8 6.6-8.9 9.4-13.6 4.7l-52.4-52.4-256.2 256.2a8.03 8.03 0 01-11.3 0l-42.4-42.4a8.03 8.03 0 010-11.3l256.1-256.3z"></path></svg></span></a>
   </div>
 </div>
 <header class="w-full flex flex-col items-center mt-8 mb-4 relative ml-6 mr-6">
