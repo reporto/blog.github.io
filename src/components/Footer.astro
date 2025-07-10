@@ -1,11 +1,63 @@
 ---
 import SiteOptions from "../site.config.mjs";
+
+export const PrivacyUrl = "https://jfgenius.com/privacy-policy";
+export const TermsUrl = "https://jfgenius.com/terms-conditions";
+export const CookieUrl = "https://jfgenius.com/cookie-policy";
+export const FacebookUrl =
+  "https://www.facebook.com/profile.php?id=61576926366159";
+export const TwitterUrl = "https://x.com/ReportoCo";
+export const YoutubeUrl = "https://www.youtube.com/@reporto-r4w8q";
+
+const linkListOne = [
+  {
+    label: "About Us",
+    target: "_blank",
+    href: "https://jfgenius.com/about-us",
+  },
+  {
+    label: "Contact",
+    href: `mailto:support@jfgenius.com`,
+  },
+  {
+    label: "Help center",
+    target: "_blank",
+    href: "https://jfgenius.com/#FAQs",
+  },
+];
+const mediaList = [
+  {
+    label: "Facebook",
+    href: FacebookUrl,
+    target: "_blank",
+    icon:'<svg stroke="#ccc" fill="#ccc" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>',
+    rel: "noopener noreferrer",
+  },
+  {
+    label: "X (Twitter)",
+    href: TwitterUrl,
+    target: "_blank",
+    rel: "noopener noreferrer",
+  },
+  {
+    label: "Youtube",
+    href: YoutubeUrl,
+    target: "_blank",
+    rel: "noopener noreferrer",
+  },
+  // { label: "LinkedIn", icon: <FaLinkedin />, href: "#" },
+  {
+    label: `support@jfgenius.com`,
+    icon:'<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>',
+    href: `mailto:support@jfgenius.com`,
+  },
+];
 ---
 
 <footer
-  class="mt-16  mx-20 py-8 text-center text-gray-400 dark:text-gray-500 text-sm border-t border-gray-100 dark:border-gray-700"
+  class="mt-14 mx-20 max-w-[1100px] mx-auto py-8 text-center text-gray-400 dark:text-gray-500 text-sm dark:border-gray-700"
 >
-  <div
+  <!-- <div
     class="flex flex-col-reverse md:flex-row md:justify-between items-center space-y-reverse space-y-4 md:space-y-0"
   >
     <p>{SiteOptions.copyright}</p>
@@ -55,5 +107,174 @@ import SiteOptions from "../site.config.mjs";
         }
       </div>
     </nav>
+  </div> -->
+
+  <div>
+    <div class="container mx-auto hidden sm:flex flex-col gap-8 sm:px-0">
+      <div class={"flex flex-col gap-4 sm:flex-row"}>
+        {/* part 1*/}
+        <div class={"flex text-left flex-1 flex-col gap-6"}>
+          <div class={"w-[200px]"}>
+            <a href="http://reporto.co">
+              <img
+                src="/images/logo-report-beta.svg"
+                alt="Reporto Logo"
+                class="h-10 object-cover dark:border-gray-700 hover:opacity-80 transition-opacity"
+              />
+            </a>
+          </div>
+          <h3 class={"text-[18px]"}>Future Trading, with Your AI Wingman</h3>
+            <form class={"flex flex-col gap-4 sm:w-4/5 sm:max-w-3xl sm:flex-row"}>
+              <input class="border  border-[#eeeeee] p-2 rounded-sm " type="email" placeholder="Enter your email"></input>
+              <button class="border border-[#eeeeee] p-2 rounded-sm bg-white cursor-pointer">Subscribe</button>
+            </form>
+            <p class={"w-[640px] text-[0.8rem]"}>
+              By subscribing, you agree to our
+              <a class="underline" href={PrivacyUrl}>
+                Privacy Policy
+              </a>
+              and consent to receive updates from us.
+            </p>
+        </div>
+        {/* part 2*/}
+        <div
+          class={"flex text-left flex-1 flex-wrap gap-24 sm:w-1/2 sm:flex-nowrap sm:justify-between"}
+        >
+          <div class="ml-10 sm:ml-10">
+            <h6 class={"mb-4 font-bold"}>About</h6>
+            {
+              linkListOne.map((item, index) => {
+                return (
+                  <div class={"my-3.5 text-[0.875rem]"}>
+                    <a href={item.href} target={item.target}>
+                      {item.label}
+                    </a>
+                  </div>
+                );
+              })
+            }
+
+            <!-- {
+              SiteOptions.showCategoriesLinkOnFooter && (
+                <div class={"my-3.5 text-[0.875rem]"}>
+                  <a
+                    href="/categories"
+                  >
+                    Categories
+                  </a>
+                </div>
+              )
+            }
+            {
+              SiteOptions.showTagsLinkOnFooter && (
+                <div class={"my-3.5 text-[0.875rem]"}>
+                  <a
+                    href="/tags"
+                  >
+                    Tags
+                  </a>
+                </div>
+              )
+            }
+            {
+              SiteOptions.showAuthorsLinkOnFooter && (
+                <div class={"my-3.5 text-[0.875rem]"}>
+                  <a
+                    href="/authors"
+                  >
+                    Authors
+                  </a>
+                </div>
+              )
+            } -->
+          </div>
+          <div class={"w-full sm:w-auto"}>
+            <h6 class={"mb-4 font-bold"}>Follow Us</h6>
+            <div class={"flex gap-3.5 sm:flex-col"}>
+              <!-- {
+                mediaList.map((item, index) => ( -->
+                  <a
+                    class={"flex items-center gap-2"}
+                    href={FacebookUrl}
+                  >
+                    <span
+                      class={
+                        "rounded-full bg-[#FFFFFF1F] p-4 sm:bg-transparent sm:p-0"
+                      }
+                    >
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+                    </span>
+                    <span class={"hidden text-[0.875rem] sm:block"}>
+                      Facebook
+                    </span>
+                  </a>
+
+                  <a
+                    class={"flex items-center gap-2"}
+                    href={TwitterUrl}
+                  >
+                    <span
+                      class={
+                        "rounded-full bg-[#FFFFFF1F] p-4 sm:bg-transparent sm:p-0"
+                      }
+                    >
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>
+                    </span>
+                    <span class={"hidden text-[0.875rem] sm:block"}>
+                      X (Twitter)
+                    </span>
+                  </a>
+
+                  <a
+                    class={"flex items-center gap-2"}
+                    href={YoutubeUrl}
+                  >
+                    <span
+                      class={
+                        "rounded-full bg-[#FFFFFF1F] p-4 sm:bg-transparent sm:p-0"
+                      }
+                    >
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+                    </span>
+                    <span class={"hidden text-[0.875rem] sm:block"}>
+                      Youtube
+                    </span>
+                  </a>
+
+                  <a
+                    class={"flex items-center gap-2"}
+                    href={'mailto:support@jfgenius.com'}
+                  >
+                    <span
+                      class={
+                        "rounded-full bg-[#FFFFFF1F] p-4 sm:bg-transparent sm:p-0"
+                      }
+                    >
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"></path></svg>
+                    </span>
+                    <span class={"hidden text-[0.875rem] sm:block"}>
+                      support@jfgenius.com
+                    </span>
+                  </a>
+                <!-- )) -->
+              <!-- } -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-12 border-t border-[#eeeeee]">
+      <div
+        class="mx-auto my-2 flex justify-between py-4 text-[0.775rem]"
+      >
+        <span class="w-full sm:w-auto text-center sm:text-left">©{new Date().getFullYear()} Jiff Genius AI All Rights Reserved</span
+        >
+        <span class={"hidden sm:flex sm:gap-2"}>
+          <a class="underline" href={PrivacyUrl}> Privacy Policy </a>
+          <a class="underline" href={TermsUrl}> Terms of Service </a>
+          <a class="underline" href={CookieUrl}> Cookie Policy </a>
+        </span>
+      </div>
+    </div>
   </div>
 </footer>
