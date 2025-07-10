@@ -25,8 +25,8 @@ const allPosts = await getCollection("article")
 const similarPosts = allPosts.filter((p) => p.slug !== post.slug && p.data.category === post.data.category).slice(0, 3)
 
 const formattedDate = new Intl.DateTimeFormat("en-US", {
-  year: "numeric",
   month: "long",
+  year: "numeric",
   day: "numeric",
 }).format(pubDate)
 ---
@@ -55,7 +55,7 @@ const formattedDate = new Intl.DateTimeFormat("en-US", {
           {author.toUpperCase().slice(0,1)}
         </div>
         <div class="flex flex-col items-start space-y-1>">
-          <a href={`/author/${author.toLowerCase().replace(/\s+/g, "-")}`} class="text-gray-500 dark:text-gray-400 hover:underline no-underline"><strong>{author}</strong></a>
+          <a href={`/author/${author.replace(/\s+/g, "-")}`} class="text-gray-500 dark:text-gray-400 hover:underline no-underline"><strong>{author}</strong></a>
           <span class="text-xs">{SiteOptions.labels.postedIn} {formattedDate}</span>
         </div>
       </div>
@@ -77,7 +77,7 @@ const formattedDate = new Intl.DateTimeFormat("en-US", {
       {
         tags.map((tag) => (
           <a href={`/tag/${tag.toLowerCase().replace(/\s+/g, "-")}`} class="bg-gray-100 text-gray-600 dark:bg-slate-700 dark:text-slate-300 px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-slate-600 ml-1 no-underline hover:underline">
-            {tag}
+            {tag.charAt(0).toUpperCase() + tag.slice(1)}
           </a>
         ))
       }

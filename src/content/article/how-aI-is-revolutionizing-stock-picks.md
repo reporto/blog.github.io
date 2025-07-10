@@ -2,13 +2,13 @@
 title: How AI is Revolutionizing Stock Picks and Earnings Reports Analysis
 description: How AI is Revolutionizing Stock Picks and Earnings Reports Analysis
 pubDate: 2025-07-07
-author: joe
-category: ai
+author: Joe
+category: Ai
 tags:
-  - report
-  - ai
-  - stock
-  - analysis
+  - Report
+  - Ai
+  - Stock
+  - Analysis
 
 featured: true
 thumb: /images/articles/2025-7-7/pic_1.PNG
