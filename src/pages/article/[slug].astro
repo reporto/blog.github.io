@@ -48,19 +48,28 @@ const formattedDate = new Intl.DateTimeFormat("en-US", {
       {title}
     </h1>
     <div class="flex flex-wrap items-center text-sm text-gray-500 dark:text-gray-400 space-x-4 mb-4">
-      <span>By <a href={`/author/${author.toLowerCase().replace(/\s+/g, "-")}`} class="text-gray-500 dark:text-gray-400 hover:underline no-underline"><strong>{author}</strong></a></span>
-      <span>{formattedDate}</span>
+      <div class="flex flex-row items-center space-x-2">
+        <div class="w-9 h-9 flex items-center justify-center bg-[#F2C279] dark:bg-slate-700 text-gray-800 dark:text-slate-100 rounded-full font-bold">
+          {author.toUpperCase().slice(0,1)}
+        </div>
+        <div class="flex flex-col items-start space-y-1>">
+          <a href={`/author/${author.toLowerCase().replace(/\s+/g, "-")}`} class="text-gray-500 dark:text-gray-400 hover:underline no-underline"><strong>{author}</strong></a>
+          <span class="text-xs">{SiteOptions.labels.postedIn} {formattedDate}</span>
+        </div>
+      </div>
+    </div>
+    <!-- <div>
       {
         category && (
-          <span>
+          <>
             {SiteOptions.labels.postedIn}
             <a href={`/category/${category.toLowerCase().replace(/\s+/g, "-")}`} class="text-gray-500 dark:text-gray-400 hover:underline no-underline">
               <strong>{category}</strong>
             </a>
-          </span>
+          </>
         )
       }
-    </div>
+    </div> -->
     <div class="text-sm text-gray-500 dark:text-gray-400">
       Tags:
       {
