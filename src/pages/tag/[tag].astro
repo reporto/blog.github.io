@@ -36,9 +36,8 @@ type Props = {
 
 const { tag, posts } = Astro.props;
 ---
-
 <BlogLayout
-  title={`${tag} Articles - ${SiteOptions.siteTitle}`}
+  title={`${tag.charAt(0).toUpperCase() + tag.slice(1)} Articles - ${SiteOptions.siteTitle}`}
   description={`Articles tagged with ${tag}`}
 >
   <Header showTitle={false} />
