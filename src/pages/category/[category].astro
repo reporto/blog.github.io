@@ -51,7 +51,7 @@ const { category, posts } = Astro.props;
       </h1>
       <p class="text-lg text-gray-500 dark:text-gray-400">
         {posts.length}
-        {posts.length === 1 ? "article" : "articles"} in the {category} category
+        {posts.length === 1 ? "article" : "articles"} in the <span class="capitalize">{category}</span> category
       </p>
     </header>
 

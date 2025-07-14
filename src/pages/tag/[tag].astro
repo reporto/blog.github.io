@@ -55,7 +55,7 @@ const { tag, posts } = Astro.props;
       </h1>
       <p class="text-lg text-gray-500 dark:text-gray-400">
         {posts.length}
-        {posts.length === 1 ? "article" : "articles"} tagged with "{tag}"
+        {posts.length === 1 ? "article" : "articles"} tagged with <span class="capitalize">{tag}</span>
       </p>
     </header>
 
